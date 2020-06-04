@@ -64,6 +64,7 @@ class Student
     SQL
     
     return = DB[:conn].execute(sql, name)
-    
+    Student.new(thing[0], thing[1], thing[2])
+  end
 
 end
