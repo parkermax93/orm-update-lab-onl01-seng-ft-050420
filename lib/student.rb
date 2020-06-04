@@ -65,6 +65,5 @@ class Student
     
     return = DB[:conn].execute(sql, name)
     
-    
 
 end
