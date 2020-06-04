@@ -63,7 +63,7 @@ class Student
       WHERE name = ?
     SQL
     
-    
+    return = DB[:conn].execute(sql, name)
     
     
 
