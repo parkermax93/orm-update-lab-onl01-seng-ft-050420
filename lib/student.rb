@@ -32,7 +32,7 @@ class Student
   end
   
   def save 
-    if 
+    
   end
 
 
